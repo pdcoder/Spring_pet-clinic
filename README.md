@@ -1,1 +1,1 @@
-# Weather-app
+# Disease Predictor
