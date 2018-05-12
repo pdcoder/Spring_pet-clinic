@@ -6,7 +6,7 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "client": "npm run start --prefix client",
-    "server": "nodemon server.js",   
+    "server": "nodemon server.js",
     "dev": "concurrently \"npm run client\" \"npm run server\""
   },
   "repository": {
@@ -26,7 +26,10 @@
   },
   "homepage": "https://github.com/pdcoder/Disease-predictor#readme",
   "dependencies": {
+    "brain": "^1.0.0",
     "create-react-app": "^1.5.2",
+    "keras-js": "^1.0.3",
+    "node-gyp": "^3.6.2",
     "nodemon": "^1.17.4"
   }
 }
