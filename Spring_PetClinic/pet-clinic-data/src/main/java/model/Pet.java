@@ -1,8 +1,9 @@
-package com.example.demo.model;
+package model;
 
 import java.time.LocalDate;
+import model.PetType;
 
-public class Pet {
+public class Pet extends BaseEntity{
 
     private PetType petType;
     private Owner owner;

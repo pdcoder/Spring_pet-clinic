@@ -1,4 +1,6 @@
-package com.example.demo.model;
+package model;
+
+import model.Person;
 
 public class Owner extends Person{
 }
